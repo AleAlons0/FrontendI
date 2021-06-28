@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.descuentos {
+    background-color: rgb(28,209,176);
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px;
+}
+
+.titulo {
+    background: rgba(0, 102, 159, 1);
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    height: 800px;
+}
+
+.iconos{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: 127px;
+    left: 90px;
+    right: 90px;
+    bottom: 282px;
+}
+.body-card {
+    position: relative;
+    top: 110px;
+    padding: 30px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+}
+
+.button {
+    position: relative;
+    top: 90px;
+    left: 110px;
+    background-color:black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.batman {
+    background-image: url(849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+    background-repeat: no-repeat;
+    background-color:rgba(243, 243, 243, 1);
+    border-radius: 15px;
+    border-bottom: 3px solid rgba(0,0,0,0.5);
+    width: 300px;
+    height: 550px;
+    margin-right: 25px;
+    margin-left: 58px;
+}
+
+.harley {
+    background-image: url(849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+    background-repeat: no-repeat;
+    background-color:rgba(243, 243, 243, 1);
+    border-radius: 15px;
+    border-bottom: 3px solid rgba(0,0,0,0.5);
+    width: 300px;
+    height: 550px;
+    margin-right: 25px;
+}
+
+.superman {
+    background-image: url(849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+    background-repeat: no-repeat;
+    background-color:rgba(243, 243, 243, 1);
+    border-radius: 15px;
+    border-bottom: 3px solid rgba(0,0,0,0.5);
+    width: 300px;
+    height: 550px;
+}
