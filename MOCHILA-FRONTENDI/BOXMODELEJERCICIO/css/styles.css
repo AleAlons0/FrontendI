@@ -58,7 +58,7 @@
     border-radius: 15px;
     border-bottom: 3px solid rgba(0,0,0,0.5);
     width: 300px;
-    height: 550px;
+    height: 600px;
     margin-right: 25px;
     margin-left: 58px;
 }
@@ -70,7 +70,7 @@
     border-radius: 15px;
     border-bottom: 3px solid rgba(0,0,0,0.5);
     width: 300px;
-    height: 550px;
+    height: 600px;
     margin-right: 25px;
 }
 
@@ -81,5 +81,7 @@
     border-radius: 15px;
     border-bottom: 3px solid rgba(0,0,0,0.5);
     width: 300px;
-    height: 550px;
+    height: 600px;
+    margin-right: 25px;
 }
+
