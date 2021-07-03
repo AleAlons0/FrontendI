@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navoptions {
+    background-color: rgb(109, 98, 98);
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navconfig{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(15, 13, 13);
+}
+
+.navconfig il a{
+    text-decoration: none;
+    padding: 8px;
+}
+
+.itembar {
+    display: inline-block;
+} 
+
+.itembar a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: black;
+    width: auto;
+}
+
+.itembar a:hover{
+    background-color: blue;
+}
+
+.logo img{
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.iconos{
+    height: 100px;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Tourney', cursive;
+    padding:30px;
+    border: 2px solid rgba(15, 13, 13,0.3)
+}
+
+.container_cards{
+    display: flex;
+    background-color: rgb(231, 205, 205);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.imagen {
+    background-color: rgb(64, 124, 139);
+    width: 110px;
+    height: 110px;   
+    margin: 100px 92px 0px;
+    border-radius: 50%; 
+}
+
+.description{
+    padding: 0px 20px;
+}
+
+.card {
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+    background-color: beige;
+    border:3px solid rgb(15, 13, 13);
+    width: 300px;
+    height: 600px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+    border-bottom: 10px solid rgb(15, 13, 13);
+}
+.batman {
+    background-image: url(https://st4.depositphotos.com/19789706/39490/i/600/depositphotos_394903360-stock-photo-bologna-italy-july-26-2020.jpg);
+}
+.acquaman {
+    background-image: url(http://1000marcas.net/wp-content/uploads/2021/04/Aquaman-symbol-1.jpg);
+}
+.superman {
+    background-image: url(https://i.pinimg.com/originals/27/80/55/278055617f7ddb1dcec016f98e5fb3e0.jpg);
+}
+.maravilla{
+    background-image: url(https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/sites/4/2020/06/WW-1024x640.jpg);
+}
+.flash{
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/021/467/705/large/semrram-gonzalez-the-flash-logo-2.jpg?1571791753);
+}
+
+footer{
+    background-color: rgb(64, 124, 139);
+    width: 100px;
+}
+
+footer p{
+    text-align: center;
+}
+@media (max-width:425px){
+.card {
+    background-color: rgb(4, 30, 77);
+    border: none;
+    border-bottom: 10px solid rgba(0,0,0,1);
+    color: beige
+    ;
+}
+}
