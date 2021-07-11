@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navoptions {
+    background-color: rgb(109, 98, 98);
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 18px;
+    right: 0;
+}
+
+.navconfig{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(15, 13, 13);
+}
+
+.navconfig il a{
+    text-decoration: none;
+    padding: 8px;
+}
+
+.itembar {
+    display: inline-block;
+} 
+
+.itembar a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    background-color: black;
+    width: auto;
+    border-radius: 15px;
+}
+
+.formulario {
+padding-top: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
