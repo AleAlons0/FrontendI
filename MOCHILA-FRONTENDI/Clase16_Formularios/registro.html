@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
-    <title>Login</title>
+    <title>Registrate a la tienda</title>
 </head>
 <body>
     <header>
@@ -35,23 +35,35 @@
 
      <section>
         <h1 class="titulo-pag">
-          LOGIN
+          REGISTRATE
         </h1>
 
       <form action="/ssss/" class="formulario">
-         <label for="usuario">Usuario o correo:</label>
-         <input type="email" placeholder="Usuario@dominio.com" name="usuario" id="usuario" required>
+         <label for="usuario">Nombre y Apellido:</label>
+         <input type="text" placeholder="Ej: Sancho Panza" name="usuario" id="usuario" required>
     
-         <label for="contraseña">Contraseña:</label>
-        <input type="password" placeholder="******" name="contraseña" id="contraseña" required>
+         <label for="correo">Correo:</label>
+        <input type="email" placeholder="sanchopanza@gmail.com" name="correo" id="correo" required>
+
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" placeholder="Más de 8 dígitos" name="contraseña" id="contraseña" required>
+
+        <label for="pais">País:</label>
+        <select name="pais" id="pais">
+            <option value="1">Argentina</option>
+            <option value="2">Colombia</option>
+            <option value="3">Brasil</option>
+
+        </select>
+
 
          <p>
             <input type="submit" value="Ingresar" class="boton-form">
         </p>
     
         </form>
-        <p class="puente">¿No tienes una cuenta?<a href="registro.html"> Registrate </a></p>
     </section> 
+
 
 </body>
 </html>

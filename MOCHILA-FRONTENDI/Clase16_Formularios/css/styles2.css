@@ -7,15 +7,11 @@
 .navoptions {
     background-color: rgb(109, 98, 98);
     height: auto;
-    width: auto;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    left: 0;
-    top: 18px;
-    right: 0;
 }
 
 .navconfig{
@@ -25,27 +21,61 @@
 }
 
 .navconfig il a{
-    text-decoration: none;
-    padding: 8px;
+    padding-right:20px ;
 }
 
-.itembar {
-    display: inline-block;
-} 
-
-.itembar a{
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 8px;
-    background-color: black;
-    width: auto;
-    border-radius: 15px;
+.titulo-pag{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Tourney', cursive;
+    font-size: 35px;
+}
+.logo{
+    padding-right: 20px;
 }
 
+.logo a img{
+    border-radius: 30px;
+}
 .formulario {
-padding-top: 100px;
-display: flex;
-flex-direction: column;
-justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
 }
+
+.formulario label{
+    padding: 10px 0px;
+}
+
+#usuario, #pais, #correo, #contraseña {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid rgb(111, 115, 161);
+    border-radius: 5px;
+}
+
+.boton-form {
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(57, 209, 77);
+    padding: 10px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.puente{
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.btn-volver{
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+}
+
